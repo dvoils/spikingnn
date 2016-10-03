@@ -13,8 +13,9 @@ Many thanks to the DARPA SyNAPSE team for funding this project.
 
 # Getting Started
 
-The project has 2 parts:
+The project has 3 parts:
 1. A C++ back-end that implements the routing fabric.
 2. A Python front end that is used to control the simulation and graphically display the result.
+3. A recurrent neural network which implements Brette Romain's synaptic conductance model.
 
 To compile the C++ code, just type "make". The python front-end and C++ back end were designed to communicate over a private network using TCP/IP protocol.
